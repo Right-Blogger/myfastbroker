@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg15" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg15)"/>
+  <!-- Left side: Demo -->
+  <rect x="50" y="60" width="530" height="510" rx="16" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <!-- Demo screen content -->
+  <rect x="80" y="100" width="470" height="320" rx="10" fill="#0a0a14"/>
+  <polyline points="110,380 170,360 210,370 260,340 320,350 380,310 440,330 510,290" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.7"/>
+  <!-- Virtual balance -->
+  <rect x="100" y="440" width="200" height="50" rx="8" fill="#111144" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="120" y="455" width="160" height="20" rx="4" fill="#1d4ed8" opacity="0.3"/>
+  <!-- Practice badge -->
+  <rect x="340" y="440" width="180" height="50" rx="8" fill="#1d4ed8" opacity="0.2"/>
+  <rect x="360" y="455" width="140" height="20" rx="4" fill="#1d4ed8" opacity="0.3"/>
+  <!-- Divider line -->
+  <line x1="600" y1="60" x2="600" y2="570" stroke="#3b82f6" stroke-width="2" stroke-dasharray="10,6"/>
+  <!-- VS -->
+  <circle cx="600" cy="315" r="30" fill="#0f1a2e" stroke="#60a5fa" stroke-width="2.5"/>
+  <text x="588" y="322" fill="#60a5fa" font-size="18" font-family="sans-serif" font-weight="bold">VS</text>
+  <!-- Right side: Live -->
+  <rect x="620" y="60" width="530" height="510" rx="16" fill="#111133" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Live screen content -->
+  <rect x="650" y="100" width="470" height="320" rx="10" fill="#0a0a14"/>
+  <polyline points="680,350 740,320 780,340 840,290 900,310 960,260 1020,280 1090,240" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+  <!-- Live balance -->
+  <rect x="670" y="440" width="200" height="50" rx="8" fill="#111144" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="690" y="455" width="160" height="20" rx="4" fill="#3b82f6" opacity="0.3"/>
+  <!-- Live badge -->
+  <rect x="910" y="440" width="180" height="50" rx="8" fill="#3b82f6" opacity="0.25"/>
+  <rect x="930" y="455" width="140" height="20" rx="4" fill="#3b82f6" opacity="0.4"/>
+  <!-- Real money indicator dots -->
+  <circle cx="690" cy="465" r="4" fill="#60a5fa" opacity="0.6"/>
+  <circle cx="705" cy="465" r="4" fill="#60a5fa" opacity="0.5"/>
+  <circle cx="720" cy="465" r="4" fill="#60a5fa" opacity="0.4"/>
+</svg>

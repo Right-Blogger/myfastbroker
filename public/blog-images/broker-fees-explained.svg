@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg5)"/>
+  <!-- Stacked coin layers -->
+  <ellipse cx="600" cy="480" rx="160" ry="25" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <ellipse cx="600" cy="480" rx="160" ry="10" fill="#1d4ed8" opacity="0.3"/>
+  <ellipse cx="600" cy="450" rx="150" ry="22" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <ellipse cx="600" cy="450" rx="150" ry="8" fill="#1d4ed8" opacity="0.3"/>
+  <ellipse cx="600" cy="422" rx="140" ry="20" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <ellipse cx="600" cy="422" rx="140" ry="7" fill="#3b82f6" opacity="0.3"/>
+  <ellipse cx="600" cy="395" rx="130" ry="18" fill="#111144" stroke="#1d4ed8" stroke-width="1.5"/>
+  <ellipse cx="600" cy="395" rx="130" ry="6" fill="#3b82f6" opacity="0.3"/>
+  <ellipse cx="600" cy="370" rx="120" ry="16" fill="#111144" stroke="#3b82f6" stroke-width="1.5"/>
+  <ellipse cx="600" cy="370" rx="120" ry="5" fill="#3b82f6" opacity="0.4"/>
+  <ellipse cx="600" cy="345" rx="110" ry="14" fill="#0f1a2e" stroke="#60a5fa" stroke-width="2"/>
+  <ellipse cx="600" cy="345" rx="110" ry="4" fill="#60a5fa" opacity="0.4"/>
+  <!-- Side labels -->
+  <rect x="810" y="330" width="180" height="28" rx="6" fill="#111133" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="810" y="365" width="180" height="28" rx="6" fill="#111133" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="810" y="400" width="180" height="28" rx="6" fill="#111133" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="810" y="435" width="180" height="28" rx="6" fill="#111133" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="810" y="470" width="180" height="28" rx="6" fill="#111133" stroke="#1e3a5f" stroke-width="1"/>
+  <!-- Connecting lines -->
+  <line x1="710" y1="345" x2="810" y2="344" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="720" y1="370" x2="810" y2="379" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="730" y1="395" x2="810" y2="414" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="740" y1="422" x2="810" y2="449" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="750" y1="450" x2="810" y2="484" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Dollar signs on coins -->
+  <text x="590" y="350" fill="#60a5fa" font-size="14" font-family="sans-serif" opacity="0.6">$</text>
+  <text x="590" y="375" fill="#3b82f6" font-size="14" font-family="sans-serif" opacity="0.5">$</text>
+  <text x="590" y="400" fill="#3b82f6" font-size="14" font-family="sans-serif" opacity="0.4">$</text>
+  <text x="590" y="427" fill="#1d4ed8" font-size="14" font-family="sans-serif" opacity="0.4">$</text>
+  <text x="590" y="455" fill="#1d4ed8" font-size="14" font-family="sans-serif" opacity="0.3">$</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg7)"/>
+  <!-- Left arrow (Bid) -->
+  <polygon points="200,200 450,300 200,400" fill="#1d4ed8" opacity="0.5" stroke="#3b82f6" stroke-width="2"/>
+  <text x="260" y="310" fill="#60a5fa" font-size="36" font-family="sans-serif" font-weight="bold" opacity="0.8">BID</text>
+  <!-- Right arrow (Ask) -->
+  <polygon points="1000,200 750,300 1000,400" fill="#1d4ed8" opacity="0.5" stroke="#3b82f6" stroke-width="2"/>
+  <text x="890" y="310" fill="#60a5fa" font-size="36" font-family="sans-serif" font-weight="bold" opacity="0.8">ASK</text>
+  <!-- Spread gap in center -->
+  <rect x="500" y="240" width="200" height="120" rx="12" fill="#0f1a2e" stroke="#60a5fa" stroke-width="2.5"/>
+  <line x1="520" y1="300" x2="680" y2="300" stroke="#1d4ed8" stroke-width="3"/>
+  <!-- Double headed arrow for spread -->
+  <polygon points="510,300 525,290 525,310" fill="#60a5fa"/>
+  <polygon points="690,300 675,290 675,310" fill="#60a5fa"/>
+  <!-- Horizontal line -->
+  <line x1="100" y1="500" x2="1100" y2="500" stroke="#1e293b" stroke-width="1.5"/>
+  <!-- Price markers -->
+  <circle cx="250" cy="500" r="6" fill="#3b82f6"/>
+  <circle cx="600" cy="500" r="8" fill="#60a5fa"/>
+  <circle cx="950" cy="500" r="6" fill="#3b82f6"/>
+  <!-- Spread indicator line on price bar -->
+  <rect x="350" y="494" width="500" height="12" rx="6" fill="#3b82f6" opacity="0.2"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg16" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+    <radialGradient id="magnify" cx="0.4" cy="0.4">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.02"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg16)"/>
+  <!-- Magnifying glass -->
+  <circle cx="480" cy="280" r="160" fill="url(#magnify)" stroke="#3b82f6" stroke-width="3"/>
+  <circle cx="480" cy="280" r="150" fill="none" stroke="#1d4ed8" stroke-width="1" opacity="0.5"/>
+  <!-- Handle -->
+  <line x1="595" y1="395" x2="730" y2="530" stroke="#3b82f6" stroke-width="8" stroke-linecap="round"/>
+  <line x1="595" y1="395" x2="730" y2="530" stroke="#1d4ed8" stroke-width="4" stroke-linecap="round"/>
+  <!-- Small object being magnified -->
+  <rect x="455" y="260" width="50" height="40" rx="4" fill="#1d4ed8" opacity="0.5"/>
+  <!-- Magnified view on right -->
+  <circle cx="850" cy="280" r="120" fill="#111133" stroke="#60a5fa" stroke-width="2.5"/>
+  <circle cx="850" cy="280" r="110" fill="none" stroke="#1d4ed8" stroke-width="1"/>
+  <!-- Amplified chart inside -->
+  <polyline points="770,330 800,310 830,320 860,270 890,290 920,250 940,230" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+  <!-- Power of leverage indicator -->
+  <rect x="790" y="370" width="120" height="30" rx="6" fill="#1d4ed8" opacity="0.3"/>
+  <rect x="810" y="378" width="80" height="14" rx="3" fill="#60a5fa" opacity="0.3"/>
+  <!-- Connection line -->
+  <line x1="640" y1="280" x2="730" y2="280" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <polygon points="730,275 740,280 730,285" fill="#3b82f6"/>
+  <!-- Multiplier symbols -->
+  <circle cx="350" cy="200" r="20" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <text x="343" y="206" fill="#3b82f6" font-size="16" font-family="sans-serif" opacity="0.6">x</text>
+  <circle cx="350" cy="370" r="20" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <text x="343" y="376" fill="#3b82f6" font-size="16" font-family="sans-serif" opacity="0.6">x</text>
+</svg>

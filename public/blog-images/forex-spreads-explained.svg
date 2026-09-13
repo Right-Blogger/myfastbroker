@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg8)"/>
+  <!-- Currency pair left -->
+  <circle cx="200" cy="315" r="70" fill="#111133" stroke="#3b82f6" stroke-width="2"/>
+  <text x="178" y="325" fill="#60a5fa" font-size="44" font-family="sans-serif" font-weight="bold">$</text>
+  <!-- Currency pair right -->
+  <circle cx="1000" cy="315" r="70" fill="#111133" stroke="#3b82f6" stroke-width="2"/>
+  <text x="978" y="325" fill="#60a5fa" font-size="44" font-family="sans-serif" font-weight="bold">€</text>
+  <!-- Connection line -->
+  <line x1="270" y1="315" x2="930" y2="315" stroke="#1e3a5f" stroke-width="2"/>
+  <!-- Spread indicator in center -->
+  <rect x="500" y="270" width="200" height="90" rx="14" fill="#0f1a2e" stroke="#60a5fa" stroke-width="2"/>
+  <!-- Bid price -->
+  <rect x="510" y="280" width="85" height="30" rx="6" fill="#1d4ed8" opacity="0.4"/>
+  <line x1="525" y1="295" x2="580" y2="295" stroke="#60a5fa" stroke-width="2"/>
+  <!-- Ask price -->
+  <rect x="605" y="280" width="85" height="30" rx="6" fill="#1d4ed8" opacity="0.4"/>
+  <line x1="620" y1="295" x2="675" y2="295" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Spread label area -->
+  <rect x="510" y="320" width="180" height="28" rx="6" fill="#1d4ed8" opacity="0.3"/>
+  <line x1="530" y1="334" x2="670" y2="334" stroke="#1e3a5f" stroke-width="2"/>
+  <!-- Small pip indicators -->
+  <circle cx="350" cy="315" r="4" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="420" cy="315" r="4" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="780" cy="315" r="4" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="850" cy="315" r="4" fill="#3b82f6" opacity="0.5"/>
+  <!-- Subtle wave pattern at bottom -->
+  <path d="M0,550 Q150,530 300,550 Q450,570 600,550 Q750,530 900,550 Q1050,570 1200,550" fill="none" stroke="#1e3a5f" stroke-width="1" opacity="0.3"/>
+  <path d="M0,570 Q150,550 300,570 Q450,590 600,570 Q750,550 900,570 Q1050,590 1200,570" fill="none" stroke="#1e3a5f" stroke-width="1" opacity="0.2"/>
+</svg>

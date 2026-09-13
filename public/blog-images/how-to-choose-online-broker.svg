@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+    <linearGradient id="funnel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+  <!-- Funnel shape -->
+  <polygon points="200,100 1000,100 850,230 350,230" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <polygon points="350,230 850,230 750,350 450,350" fill="#111144" stroke="#1d4ed8" stroke-width="1.5"/>
+  <polygon points="450,350 750,350 680,460 520,460" fill="#1d4ed8" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="520,460 680,460 650,540 550,540" fill="url(#funnel)" stroke="#60a5fa" stroke-width="2"/>
+  <!-- Dots flowing through funnel -->
+  <circle cx="350" cy="160" r="8" fill="#1e3a5f"/>
+  <circle cx="500" cy="160" r="8" fill="#1e3a5f"/>
+  <circle cx="650" cy="160" r="8" fill="#1e3a5f"/>
+  <circle cx="800" cy="160" r="8" fill="#1e3a5f"/>
+  <circle cx="450" cy="290" r="8" fill="#3b82f6" opacity="0.7"/>
+  <circle cx="600" cy="290" r="8" fill="#3b82f6" opacity="0.7"/>
+  <circle cx="750" cy="290" r="8" fill="#3b82f6" opacity="0.7"/>
+  <circle cx="560" cy="400" r="8" fill="#60a5fa" opacity="0.8"/>
+  <circle cx="640" cy="400" r="8" fill="#60a5fa" opacity="0.8"/>
+  <!-- Final selection -->
+  <circle cx="600" cy="540" r="14" fill="#3b82f6"/>
+  <polyline points="592,540 598,548 612,532" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Subtle glow -->
+  <ellipse cx="600" cy="540" rx="60" ry="20" fill="#3b82f6" opacity="0.1"/>
+</svg>

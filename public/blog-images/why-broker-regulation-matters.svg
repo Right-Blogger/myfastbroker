@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg13" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg13)"/>
+  <!-- Scale base -->
+  <line x1="600" y1="200" x2="600" y2="450" stroke="#3b82f6" stroke-width="3"/>
+  <rect x="560" y="450" width="80" height="8" rx="4" fill="#1d4ed8" opacity="0.6"/>
+  <!-- Scale beam -->
+  <line x1="300" y1="240" x2="900" y2="240" stroke="#3b82f6" stroke-width="3"/>
+  <!-- Pivot point -->
+  <circle cx="600" cy="240" r="15" fill="#0f1a2e" stroke="#60a5fa" stroke-width="2.5"/>
+  <!-- Left pan (regulation/protection) -->
+  <path d="M300,240 L240,350 L360,350 Z" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="300" y1="240" x2="240" y2="350" stroke="#3b82f6" stroke-width="1.5"/>
+  <line x1="300" y1="240" x2="360" y2="350" stroke="#3b82f6" stroke-width="1.5"/>
+  <line x1="240" y1="350" x2="360" y2="350" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Items in left pan -->
+  <circle cx="280" cy="310" r="10" fill="#1d4ed8" opacity="0.5"/>
+  <circle cx="300" cy="320" r="10" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="320" cy="310" r="10" fill="#1d4ed8" opacity="0.5"/>
+  <!-- Right pan (risk/unregulated) -->
+  <path d="M900,240 L840,350 L960,350 Z" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+  <line x1="900" y1="240" x2="840" y2="350" stroke="#1e3a5f" stroke-width="1.5"/>
+  <line x1="900" y1="240" x2="960" y2="350" stroke="#1e3a5f" stroke-width="1.5"/>
+  <line x1="840" y1="350" x2="960" y2="350" stroke="#1e3a5f" stroke-width="2"/>
+  <!-- Tilt effect - left side heavier -->
+  <!-- Left pan lower, right pan higher -->
+  <rect x="430" y="520" width="340" height="2" fill="#1e3a5f" opacity="0.3"/>
+  <!-- Subtle decorative elements -->
+  <circle cx="600" cy="240" r="8" fill="#60a5fa" opacity="0.6"/>
+  <!-- Balance indicator -->
+  <line x1="300" y1="250" x2="300" y2="280" stroke="#1d4ed8" stroke-width="1" opacity="0.5"/>
+  <line x1="900" y1="230" x2="900" y2="200" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+</svg>

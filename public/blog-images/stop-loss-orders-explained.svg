@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg29" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg29)"/>
+  <!-- Grid -->
+  <line x1="100" y1="150" x2="1100" y2="150" stroke="#1e293b" stroke-width="0.5"/>
+  <line x1="100" y1="250" x2="1100" y2="250" stroke="#1e293b" stroke-width="0.5"/>
+  <line x1="100" y1="350" x2="1100" y2="350" stroke="#1e293b" stroke-width="0.5"/>
+  <line x1="100" y1="450" x2="1100" y2="450" stroke="#1e293b" stroke-width="0.5"/>
+  <!-- Price chart going up then down -->
+  <polyline points="100,400 200,380 300,350 400,320 500,300 600,280 700,320 800,380 900,430 1000,470 1100,500" fill="none" stroke="#3b82f6" stroke-width="2.5"/>
+  <!-- Stop loss level line -->
+  <line x1="100" y1="380" x2="850" y2="380" stroke="#60a5fa" stroke-width="2" stroke-dasharray="10,5"/>
+  <!-- Stop loss marker -->
+  <circle cx="750" cy="380" r="12" fill="#60a5fa" opacity="0.8"/>
+  <rect x="742" y="372" width="16" height="16" rx="2" fill="none" stroke="#fff" stroke-width="1.5"/>
+  <line x1="747" y1="380" x2="753" y2="380" stroke="#fff" stroke-width="1.5"/>
+  <!-- Stop trigger point -->
+  <circle cx="700" cy="320" r="6" fill="#3b82f6"/>
+  <!-- Area showing saved loss -->
+  <rect x="750" y="380" width="350" height="120" rx="0" fill="#3b82f6" opacity="0.05"/>
+  <!-- Protected zone indicator -->
+  <rect x="750" y="380" width="350" height="10" rx="5" fill="#60a5fa" opacity="0.2"/>
+  <!-- Entry point -->
+  <circle cx="500" cy="300" r="8" fill="#1d4ed8" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Vertical dashed from stop to chart -->
+  <line x1="750" y1="320" x2="750" y2="380" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+</svg>

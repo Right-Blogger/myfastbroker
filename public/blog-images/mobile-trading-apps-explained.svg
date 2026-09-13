@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg24" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg24)"/>
+  <!-- Phone outline -->
+  <rect x="420" y="40" width="360" height="550" rx="30" fill="#111133" stroke="#3b82f6" stroke-width="2.5"/>
+  <rect x="435" y="70" width="330" height="480" rx="20" fill="#0a0a14"/>
+  <!-- Phone notch -->
+  <rect x="520" y="48" width="160" height="20" rx="10" fill="#0a0a14"/>
+  <!-- Trading interface on phone -->
+  <!-- Top bar -->
+  <rect x="445" y="80" width="310" height="35" rx="4" fill="#111133"/>
+  <rect x="460" y="88" width="100" height="18" rx="4" fill="#1d4ed8" opacity="0.4"/>
+  <!-- Chart area -->
+  <rect x="445" y="125" width="310" height="200" fill="#0a0a14"/>
+  <polyline points="460,300 490,290 520,295 550,270 580,280 610,250 640,260 670,230 700,220 730,200 745,190" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Buy/Sell buttons -->
+  <rect x="455" y="340" width="145" height="45" rx="10" fill="#1d4ed8" opacity="0.4"/>
+  <rect x="610" y="340" width="145" height="45" rx="10" fill="#0f1a2e" stroke="#1e3a5f" stroke-width="1"/>
+  <!-- Position info -->
+  <rect x="455" y="400" width="300" height="50" rx="8" fill="#111133"/>
+  <rect x="470" y="412" width="120" height="10" rx="3" fill="#1d4ed8" opacity="0.3"/>
+  <rect x="470" y="430" width="80" height="10" rx="3" fill="#1e3a5f"/>
+  <!-- Bottom nav -->
+  <rect x="445" y="490" width="310" height="60" fill="#0f1a2e"/>
+  <circle cx="500" cy="520" r="8" fill="#1e3a5f"/>
+  <circle cx="570" cy="520" r="8" fill="#3b82f6" opacity="0.6"/>
+  <circle cx="640" cy="520" r="8" fill="#1e3a5f"/>
+  <circle cx="710" cy="520" r="8" fill="#1e3a5f"/>
+  <!-- Floating elements around phone -->
+  <circle cx="250" cy="200" r="50" fill="#111133" stroke="#1e3a5f" stroke-width="1"/>
+  <polyline points="230,200 245,190 255,210 270,180" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="950" cy="350" r="50" fill="#111133" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="930" y="330" width="40" height="40" rx="6" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="200" cy="420" r="35" fill="#111133" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+  <circle cx="1000" cy="180" r="35" fill="#111133" stroke="#1e3a5f" stroke-width="1" opacity="0.6"/>
+</svg>

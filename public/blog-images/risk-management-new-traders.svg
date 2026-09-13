@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg18" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg18)"/>
+  <!-- Safety net layers -->
+  <path d="M200,450 Q400,420 600,450 Q800,480 1000,450" fill="none" stroke="#1d4ed8" stroke-width="2" opacity="0.5"/>
+  <path d="M200,400 Q400,370 600,400 Q800,430 1000,400" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.4"/>
+  <path d="M200,350 Q400,320 600,350 Q800,380 1000,350" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.3"/>
+  <path d="M200,300 Q400,270 600,300 Q800,330 1000,300" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.25"/>
+  <!-- Net grid lines -->
+  <line x1="300" y1="280" x2="300" y2="460" stroke="#1e3a5f" stroke-width="1" opacity="0.3"/>
+  <line x1="450" y1="260" x2="450" y2="440" stroke="#1e3a5f" stroke-width="1" opacity="0.3"/>
+  <line x1="600" y1="270" x2="600" y2="450" stroke="#1e3a5f" stroke-width="1" opacity="0.3"/>
+  <line x1="750" y1="290" x2="750" y2="470" stroke="#1e3a5f" stroke-width="1" opacity="0.3"/>
+  <line x1="900" y1="300" x2="900" y2="460" stroke="#1e3a5f" stroke-width="1" opacity="0.3"/>
+  <!-- Falling risk element (caught by net) -->
+  <circle cx="600" cy="220" r="30" fill="#111133" stroke="#3b82f6" stroke-width="2"/>
+  <text x="592" y="227" fill="#60a5fa" font-size="22" font-family="sans-serif" font-weight="bold">$</text>
+  <!-- Protective barriers on sides -->
+  <rect x="150" y="200" width="10" height="300" rx="5" fill="#1d4ed8" opacity="0.4"/>
+  <rect x="1040" y="200" width="10" height="300" rx="5" fill="#1d4ed8" opacity="0.4"/>
+  <!-- Anchor points -->
+  <circle cx="155" cy="200" r="8" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="1045" cy="200" r="8" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="155" cy="500" r="8" fill="#3b82f6" opacity="0.5"/>
+  <circle cx="1045" cy="500" r="8" fill="#3b82f6" opacity="0.5"/>
+  <!-- Central protection indicator -->
+  <circle cx="600" cy="220" r="50" fill="none" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.3"/>
+</svg>

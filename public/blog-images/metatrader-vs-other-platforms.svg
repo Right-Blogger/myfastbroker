@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg23" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg23)"/>
+  <!-- Platform card 1: MetaTrader (highlighted) -->
+  <rect x="80" y="80" width="320" height="470" rx="16" fill="#111133" stroke="#3b82f6" stroke-width="2.5"/>
+  <rect x="110" y="110" width="260" height="35" rx="8" fill="#3b82f6" opacity="0.3"/>
+  <!-- Chart preview -->
+  <rect x="110" y="160" width="260" height="140" rx="8" fill="#0a0a14"/>
+  <polyline points="130,280 170,260 210,270 250,240 290,220 340,200 370,190" fill="none" stroke="#60a5fa" stroke-width="2"/>
+  <!-- Features -->
+  <rect x="130" y="320" width="200" height="8" rx="3" fill="#3b82f6" opacity="0.3"/>
+  <rect x="130" y="340" width="160" height="8" rx="3" fill="#1e3a5f"/>
+  <rect x="130" y="360" width="180" height="8" rx="3" fill="#1e3a5f"/>
+  <rect x="130" y="380" width="140" height="8" rx="3" fill="#1e3a5f"/>
+  <!-- Stars -->
+  <circle cx="140" cy="420" r="4" fill="#60a5fa"/>
+  <circle cx="155" cy="420" r="4" fill="#60a5fa"/>
+  <circle cx="170" cy="420" r="4" fill="#60a5fa"/>
+  <circle cx="185" cy="420" r="4" fill="#60a5fa"/>
+  <circle cx="200" cy="420" r="4" fill="#60a5fa"/>
+  <!-- Platform card 2 -->
+  <rect x="440" y="100" width="300" height="430" rx="14" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <rect x="470" y="130" width="240" height="30" rx="7" fill="#1d4ed8" opacity="0.25"/>
+  <rect x="470" y="180" width="240" height="120" rx="8" fill="#0a0a14"/>
+  <polyline points="490,280 530,270 570,275 610,260 650,240 690,230" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+  <rect x="490" y="320" width="180" height="8" rx="3" fill="#1e3a5f" opacity="0.6"/>
+  <rect x="490" y="340" width="150" height="8" rx="3" fill="#1e293b"/>
+  <rect x="490" y="360" width="170" height="8" rx="3" fill="#1e293b"/>
+  <!-- Platform card 3 -->
+  <rect x="780" y="100" width="300" height="430" rx="14" fill="#111133" stroke="#1e3a5f" stroke-width="1.5"/>
+  <rect x="810" y="130" width="240" height="30" rx="7" fill="#1d4ed8" opacity="0.25"/>
+  <rect x="810" y="180" width="240" height="120" rx="8" fill="#0a0a14"/>
+  <polyline points="830,270 870,260 910,265 950,250 990,235 1030,220" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.5"/>
+  <rect x="830" y="320" width="180" height="8" rx="3" fill="#1e3a5f" opacity="0.6"/>
+  <rect x="830" y="340" width="150" height="8" rx="3" fill="#1e293b"/>
+  <rect x="830" y="360" width="170" height="8" rx="3" fill="#1e293b"/>
+  <!-- VS divider -->
+  <line x1="415" y1="100" x2="415" y2="530" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+  <line x1="755" y1="100" x2="755" y2="530" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+</svg>

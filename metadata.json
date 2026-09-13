@@ -1,0 +1,6 @@
+{
+  "name": "MyFastBroker",
+  "description": "MyFastBroker: Compare Brokers. Cut Fees. Invest Confidently. Discover top stock, forex, crypto, and options brokers with verified fee breakdowns, transparent rankings, and interactive calculators on myfastbroker.news.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

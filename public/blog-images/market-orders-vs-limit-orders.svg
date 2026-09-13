@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg28" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg28)"/>
+  <!-- Price line (horizontal) -->
+  <line x1="100" y1="350" x2="1100" y2="350" stroke="#1e3a5f" stroke-width="2"/>
+  <!-- Market order path (straight, fast) -->
+  <line x1="200" y1="200" x2="200" y2="350" stroke="#3b82f6" stroke-width="3"/>
+  <line x1="200" y1="350" x2="600" y2="350" stroke="#3b82f6" stroke-width="3"/>
+  <circle cx="200" cy="200" r="15" fill="#1d4ed8" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="600" cy="350" r="15" fill="#3b82f6"/>
+  <!-- Market order label -->
+  <rect x="130" y="130" width="140" height="35" rx="8" fill="#111133" stroke="#3b82f6" stroke-width="1.5"/>
+  <!-- Limit order path (detour to specific price) -->
+  <line x1="700" y1="200" x2="700" y2="250" stroke="#60a5fa" stroke-width="3"/>
+  <line x1="700" y1="250" x2="700" y2="300" stroke="#60a5fa" stroke-width="3" stroke-dasharray="8,4"/>
+  <circle cx="700" cy="300" r="10" fill="none" stroke="#60a5fa" stroke-width="2"/>
+  <line x1="700" y1="300" x2="1000" y2="300" stroke="#60a5fa" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="1000" y1="300" x2="1000" y2="350" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="700" cy="200" r="15" fill="#1d4ed8" stroke="#60a5fa" stroke-width="2"/>
+  <circle cx="1000" cy="350" r="15" fill="#60a5fa"/>
+  <!-- Limit price level -->
+  <line x1="650" y1="300" x2="1050" y2="300" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <!-- Limit order label -->
+  <rect x="630" y="130" width="140" height="35" rx="8" fill="#111133" stroke="#60a5fa" stroke-width="1.5"/>
+  <!-- Price markers -->
+  <text x="1060" y="355" fill="#3b82f6" font-size="14" font-family="sans-serif" opacity="0.6">Market</text>
+  <text x="1060" y="305" fill="#60a5fa" font-size="14" font-family="sans-serif" opacity="0.6">Limit</text>
+  <!-- Divider -->
+  <line x1="600" y1="120" x2="600" y2="520" stroke="#1e293b" stroke-width="1" stroke-dasharray="6,4" opacity="0.3"/>
+</svg>

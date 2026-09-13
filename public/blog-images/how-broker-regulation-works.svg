@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg12" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg12)"/>
+  <!-- Simplified world map outlines -->
+  <!-- North America -->
+  <ellipse cx="300" cy="280" rx="140" ry="100" fill="#111133" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+  <!-- Europe -->
+  <ellipse cx="600" cy="240" rx="100" ry="80" fill="#111133" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+  <!-- Asia -->
+  <ellipse cx="900" cy="280" rx="150" ry="110" fill="#111133" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
+  <!-- South America -->
+  <ellipse cx="380" cy="450" rx="70" ry="90" fill="#111133" stroke="#1e3a5f" stroke-width="1" opacity="0.4"/>
+  <!-- Australia -->
+  <ellipse cx="950" cy="470" rx="80" ry="50" fill="#111133" stroke="#1e3a5f" stroke-width="1" opacity="0.4"/>
+  <!-- Regulatory nodes -->
+  <circle cx="280" cy="260" r="12" fill="#1d4ed8" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="280" cy="260" r="5" fill="#60a5fa"/>
+  <circle cx="600" cy="220" r="12" fill="#1d4ed8" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="600" cy="220" r="5" fill="#60a5fa"/>
+  <circle cx="880" cy="260" r="12" fill="#1d4ed8" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="880" cy="260" r="5" fill="#60a5fa"/>
+  <circle cx="370" cy="430" r="8" fill="#1d4ed8" stroke="#3b82f6" stroke-width="1.5"/>
+  <circle cx="370" cy="430" r="3" fill="#60a5fa"/>
+  <circle cx="940" cy="460" r="8" fill="#1d4ed8" stroke="#3b82f6" stroke-width="1.5"/>
+  <circle cx="940" cy="460" r="3" fill="#60a5fa"/>
+  <!-- Connection lines between nodes -->
+  <line x1="292" y1="260" x2="588" y2="220" stroke="#3b82f6" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+  <line x1="612" y1="220" x2="868" y2="260" stroke="#3b82f6" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+  <line x1="280" y1="272" x2="370" y2="422" stroke="#3b82f6" stroke-width="1" stroke-dasharray="6,4" opacity="0.4"/>
+  <line x1="880" y1="272" x2="940" y2="452" stroke="#3b82f6" stroke-width="1" stroke-dasharray="6,4" opacity="0.4"/>
+  <line x1="310" y1="260" x2="870" y2="260" stroke="#1d4ed8" stroke-width="0.5" opacity="0.3"/>
+  <!-- Pulse rings -->
+  <circle cx="280" cy="260" r="25" fill="none" stroke="#3b82f6" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="600" cy="220" r="25" fill="none" stroke="#3b82f6" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="880" cy="260" r="25" fill="none" stroke="#3b82f6" stroke-width="0.5" opacity="0.3"/>
+</svg>
