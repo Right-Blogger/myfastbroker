@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { BookOpen } from 'lucide-react';
 import BlogHeader from '@/components/blog/BlogHeader';
 import BlogFooter from '@/components/blog/BlogFooter';
@@ -10,13 +10,40 @@ import { BLOG_ARTICLES, BLOG_CATEGORIES } from '@/data/blog-articles';
 
 export default function BlogListingClient() {
   const [activeCategory, setActiveCategory] = useState<string>('all');
+  const [cmsPosts, setCmsPosts] = useState<any[]>([]);
+
+  useEffect(() => {
+    fetch('/api/public/posts')
+      .then(r => r.ok ? r.json() : { posts: [] })
+      .then(data => setCmsPosts(data.posts || []))
+      .catch(() => {});
+  }, []);
+
+  const allArticles = useMemo(() => {
+    // Map CMS posts to match BlogArticle-like shape for the card
+    const mappedCms = cmsPosts.map(p => ({
+      id: p.id,
+      slug: p.slug,
+      title: p.title,
+      excerpt: p.excerpt,
+      category: p.category,
+      categorySlug: p.categorySlug,
+      author: p.author,
+      authorRole: '',
+      readingTime: p.readingTime,
+      featuredImage: p.featuredImage,
+      imageAlt: p.title,
+      publishedAt: p.publishedAt,
+    }));
+    return [...mappedCms, ...BLOG_ARTICLES];
+  }, [cmsPosts]);
 
   const filteredArticles = useMemo(() => {
-    if (activeCategory === 'all') return BLOG_ARTICLES;
-    return BLOG_ARTICLES.filter(a => a.categorySlug === activeCategory);
-  }, [activeCategory]);
+    if (activeCategory === 'all') return allArticles;
+    return allArticles.filter(a => a.categorySlug === activeCategory);
+  }, [activeCategory, allArticles]);
 
-  const featuredArticle = BLOG_ARTICLES[0];
+  const featuredArticle = allArticles[0];
 
   return (
     <div className="min-h-screen bg-[#050505] text-[#e5e7eb] flex flex-col font-sans">
@@ -52,7 +79,7 @@ export default function BlogListingClient() {
                   : 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10 hover:text-white'
               }`}
             >
-              All Articles ({BLOG_ARTICLES.length})
+              All Articles ({allArticles.length})
             </button>
             {BLOG_CATEGORIES.map((cat) => (
               <button

@@ -19,7 +19,7 @@ export default function ArticlePageClient({ article }: ArticlePageClientProps) {
   const pathname = usePathname();
 
   // Get related articles
-  const relatedArticles = article.relatedArticleSlugs
+  const relatedArticles = (article.relatedArticleSlugs ?? [])
     .map((slug) => BLOG_ARTICLES.find((a) => a.slug === slug))
     .filter(Boolean)
     .slice(0, 3) as { slug: string; title: string; category: string; readingTime: string }[];
@@ -127,7 +127,7 @@ export default function ArticlePageClient({ article }: ArticlePageClientProps) {
           </div>
 
           {/* Key Takeaways */}
-          {article.keyTakeaways.length > 0 && (
+          {article.keyTakeaways && article.keyTakeaways.length > 0 && (
             <div className="mt-10 bg-blue-500/10 border border-blue-500/30 rounded-2xl p-6">
               <h2 className="text-xs font-bold uppercase tracking-wider text-blue-300 mb-4">
                 Key Takeaways
@@ -145,13 +145,13 @@ export default function ArticlePageClient({ article }: ArticlePageClientProps) {
 
           {/* Article Content */}
           <div className="mt-10">
-            <ArticleContent content={article.content} />
+            <ArticleContent content={article.content ?? []} />
           </div>
 
           {/* Tags */}
           <div className="mt-10 pt-6 border-t border-white/10 flex flex-wrap items-center gap-2">
             <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">Topics:</span>
-            {article.tags.map((tag) => (
+            {(article.tags ?? []).map((tag) => (
               <span
                 key={tag}
                 className="text-xs font-semibold bg-white/5 text-gray-300 border border-white/10 px-3 py-1 rounded-lg"

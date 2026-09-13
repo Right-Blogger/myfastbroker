@@ -5,3 +5,9 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# CMS data (use MySQL in production — JSON files are only for local dev)
+data/content/posts/*.json
+data/content/pages/*.json
+data/content/revisions/*.json
+data/content/revisions/

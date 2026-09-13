@@ -39,15 +39,15 @@ export interface BlogArticle {
   readingTime: string;
   featuredImage: string;
   imageAlt: string;
-  content: BlogArticleSection[];
-  keyTakeaways: string[];
-  tags: string[];
+  content?: BlogArticleSection[];
+  keyTakeaways?: string[];
+  tags?: string[];
   faq?: FAQItem[];
-  relatedArticleSlugs: string[];
-  seoTitle: string;
-  seoDescription: string;
-  primaryKeyword: string;
-  secondaryKeywords: string[];
+  relatedArticleSlugs?: string[];
+  seoTitle?: string;
+  seoDescription?: string;
+  primaryKeyword?: string;
+  secondaryKeywords?: string[];
 }
 
 export const BLOG_CATEGORIES: { name: BlogCategory; slug: string; description: string }[] = [
